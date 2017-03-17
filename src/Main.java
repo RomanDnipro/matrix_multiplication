@@ -7,7 +7,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++){
             for (int j = 0; j < arr[0].length; j++){
 
-                arr[i][j] = 0;
+                //arr[i][j] = 0;
 
                 for (int k = 0; k < b.length; k++){
                     arr[i][j] += a[i][k] * b[k][j];
